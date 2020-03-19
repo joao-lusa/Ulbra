@@ -1,0 +1,38 @@
+body{
+    font-family: arial;
+}
+h1{
+    color: white;
+    background-color: #809fff;
+    border-radius: 15px;
+    text-align: center;
+    height: 80px;
+    margin: auto;
+    width: 60%;   
+}
+h2{
+    text-align: center;
+}
+table{
+    width: 100%;
+    border-collapse: collapse;
+    margin: auto;
+    width: 60%;
+}
+td{  
+    border: 1px solid black;
+}       
+th{
+    border: 1px solid black;
+    font-size: 150%;
+}
+.adiado{
+    color: red;
+    text-align: center;
+}
+.costa{
+    text-align: left;
+}
+.pontos{
+    text-align: center;
+}
