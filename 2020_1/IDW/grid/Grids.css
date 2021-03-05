@@ -1,0 +1,33 @@
+.fotos{
+    width: 60%;
+    height: 60%;
+    border-radius: 30px;
+}
+.Social{
+    width: 60px;
+    height: 60px;
+}
+footer{
+    padding-top: 10px;
+}
+.capa{
+    width: 100%;
+    height: 100%;
+}
+#mascara{ 
+    width: 150px;
+    height: 150px;
+}
+#jogadores{
+    width: 150px;
+    height: 150px;
+}
+#grafico{
+    width: 150px;
+    height: 150px;
+}
+#ronaldo{
+    width: 150px;
+    height: 150px;
+}
+

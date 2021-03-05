@@ -1,0 +1,22 @@
+body{
+    margin: 0 auto;
+    width: 40%;
+    background-color:  #b3c6ff;
+}
+form {
+    padding: 20px;
+}
+fieldset{
+    border-radius: 10px;
+}
+#CPF{
+    width: 13%;
+}
+#CEP{
+    width: 8%;
+}
+#DivFormulário{
+    background-color: white;
+    border: 2px solid black;
+    border-radius: 9%;
+}

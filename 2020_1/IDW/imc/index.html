@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>IMC</title>
+    <!--bootstrap-->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"></script>
+    <!--/bootstrap-->
+    <script src="script.js"></script>
+    <link rel="stylesheet" href="imc.css">
+</head>
+<body>
+    <div class="shadow p-3 mb-5 bg-white rounded">
+        <div class="conteiner p-3 my-3 bg-light text-dark">
+                <h1>Responda o formulário e calcule o seu IMC</h1>
+        </div>    
+    </div>
+    <div class="shadow p-3 mb-5 bg-white rounded">
+        <form action="#">
+            <fieldset><br>
+                <label for="nome">Nome:</label>
+                <input type="text" name="Pnome">
+                <label for="Snome">Sobrenome:</label>
+                <input type="text" name="Snome"><br><br>
+                <label for="sexo">Sexo:</label><br>
+                <div class="form-check">
+                    <input type="checkbox" id="masculino" name="masculino" value="masculino">
+                    <label for="masculino">Masculino</label>
+                </div>    
+                <div class="form-check">
+                    <input type="checkbox" id="femenino" name="femenino" value="femenino">
+                    <label for="femenino">Feminino</label><br><br>
+                </div>    
+                <label for="peso">Peso:</label>
+                <input type="number" id="peso" required><br><br>
+                <label for="altura">Altura:</label>
+                <input type="number" id="altura" required><br>
+                <input type="button" value=calcular onclick="calcular();" /><br><br>
+                <div id="result"></div>
+            </fieldset>
+        </form> 
+    </div>         
+</body>
+</html>

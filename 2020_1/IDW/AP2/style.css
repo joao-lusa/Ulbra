@@ -1,0 +1,13 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    font-size: 11px;
+}
+
+#menu {
+    background-color: cadetblue;
+    padding: 1.5rem;
+}
+
+img {
+    width: 100%;
+} 

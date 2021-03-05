@@ -1,0 +1,70 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    margin: auto;
+    width: 80%;
+    background-color: rgb(56, 164, 204);
+}
+header{
+    background-color: rgb(56, 164, 204);
+    padding: 30px;
+    text-align: center;
+    font-size: 35px;
+    color: white;
+    font-size: 160%;
+    border-bottom: solid black;
+}
+article{
+    width: 60%;
+    float: left;
+    background-color: white;
+    border-right: 2px solid black;
+    
+}
+aside{
+    width: 39.8%;
+    float: left;
+    background-color: white;
+    height: 1265px;
+}
+footer{
+    text-align: center;
+    border-top: 2px solid black;
+}
+p{
+    text-align: right;
+    padding: 100px 100px 100px 100px ;
+}
+h2{
+    padding-left: 10px;
+}
+hr{
+    height: 0.2px;
+    background-color: gray;
+    width: 80%;
+}
+.textoDiferente{
+    padding: 80px 20px 80px 100px;
+}
+.DivLinha{
+    clear: both;
+    height: 170px;
+    width: 40%;
+    float: left;
+}
+.fotos1{
+    width: 300px;
+    height: 100%;
+    padding: 0px 0px 0px 10px;
+
+}
+.fotos2{
+    padding-left: 10px;
+    width: 170px;
+    height: 170px;
+    float: left;
+    border-radius: 150px;
+}
+.Social{
+    width: 60px;
+    height: 60px;
+}

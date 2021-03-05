@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>preço</title>
+    <script src="script.js"></script>
+    <link rel="stylesheet" href="style.css">
+    <!-- Bootstrap-->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
+    <!--/Bootstrap-->
+</head>
+<body>
+    <nav class="navbar navbar-expand-sm bg-info navbar-dark fixed-top">
+        <a class="navbar-brand" href="#">Preço</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+            <span class="navbar-toggler-icon"></span>
+        </button>   
+        <div class="collapse navbar-collapse" id="collapsibleNavbar">
+            <ul class="navbar-nav">
+                <li class="nav-item">
+                    <a class="nav-link" href="index.html">Picos de surf</a>
+                </li>  
+            </ul>
+        </div>  
+    </nav><br><br>
+
+    <div class="container">
+        <div class="row">
+            <section class="col-md-12">
+                <div id="cabeca">
+                    <div class="shadow-sm p-3 mb-5 bg-white rounded">
+                        <img class="vw-100 img-fluid" src="img/ond.png">
+                        <form action="#">
+                            <label for="pacote"><b>Selecione o seu pico:</b></label>
+                                <select name="n" id="n" class="form-control">
+                                    <option value="p1">El Salvador</option>
+                                    <option value="p2">Pipeline, Oahu</option>
+                                    <option value="p3">Jeffrey’s Bay</option>
+                                    <option value="p4">Nazaré</option>
+                                </select>
+                                <label for="desconto"><b>quantidade de pessoas:</b></label><br>
+                                <input type="number" id="desconto"><br>
+
+                            <input type="button" onclick="olhar()" value="Procurar"/><br>
+                            <h1 id="pico"></h1>
+                            <b id="inf"></b>
+                        </form>
+                        <table class="table">
+                            <thead class="thead-light">
+                                <tr>
+                                    <th scope="col">Passagem</th>
+                                    <th scope="col">Pousada</th>
+                                    <th scope="col">Total</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td id="passagem">R$</td>
+                                    <td id="pousada">R$</td>
+                                    <td id="total">R$</td>
+                                </tr>
+                            </tbody>
+                        </table>
+                        <p>obs: o valor apresentado é por pessoa</p>
+                        <img class="vw-100 img-fluid" src="img/ondas.png">
+                    </div>
+                </div>
+            </section>
+        </div>
+    </div>
+    <div class="rounded">  
+        <footer class="jumbotron text-center onda">
+            <a href="https://www.vidamarinha.com.br/"><img class="img-fluid" src="img/vida.png"></a><br><br>
+            <a href="https://www.monsterenergy.com/"><img class="mage float-rigth" src="img/monster.png"></a>
+        </footer>
+    </div>       
+    
+</body>
+</html>

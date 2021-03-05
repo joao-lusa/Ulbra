@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario do joão</title>
+    <link rel="stylesheet" href="EstiloForms.css">
+</head>
+<body>
+    <h1>Formulário HTML5</h1>
+    <div id="DivFormulário">
+        <form action="http://vinicius.pro.br/idw/receiveForm.php" method="POST" target="blanck">
+            <fieldset>
+                <legend>Dados Pessoais</legend>
+                <!--Nome-->
+                <label for="pname">Nome:</label>
+                <input type="text" name="pnome"  required>
+                <label for="sname">Sobrenome:</label>
+                <input type="text" name="sname" required><br><br>
+                <!--aniversário-->
+                <label for="date" >Data de Nascimento</label>
+                <input type="date" name="data" required><br><br>   
+                <!--RG-->
+                <label for="name">RG</label>
+                <input type="number" name="rg" required><br><br>
+                <!--CPF-->
+                <label for="cpf">CPF</label>
+                <input type="tell" name="cpf" id="CPF" placeholder="111.222.333-44" pattern="[0-9]{3}.[0-9]{3}.[0-9]{3}.[0-9]{2}">
+            </fieldset><br>
+
+            <fieldset>
+                <legend>Dados de Endereço</legend>
+                <!--rua-->
+                <label for="rua">Rua:</label>
+                <input type="text" name="rua" required>
+                <label for="número:">Número:</label>
+                <input type="number" name="número" required><br><br>
+                <!--bairro-->
+                <label for="Bairro">Bairro:</label>
+                <input type="Text" name="Bairro" required><br><br>
+                <!--estado-->
+                <label for="estasdo">Estado</label>
+                <input list="estados" name="estado" required>
+                <datalist id="estados">
+                    <option value="Santa Catarina">
+                    <option value="Paraná">
+                    <option value="Rio Grande do Sul">
+                </datalist><br><br>
+                <!--cidade-->
+                <label for="Cidade">Cidade:</label>
+                <input type="Text" name="cidade" required><br><br>
+                <!--CEP-->
+                <label for="cep">CEP</label>
+                <input type="tel" name="cep" id="CEP" placeholder="12345-44" required>
+            </fieldset><br>
+
+            <fieldset>
+                <legend>Dados de Login</legend>
+                <!--email-->
+                <label for="email">E-mail:</label>
+                <input type="email" name="email" required><br><br>
+                <!--Escolhe a Foto-->
+                <label for="files">(Opcional)escolha uma foto de perfil:</label><br>
+                <input type="file" name="files"><br><br>
+                <!--úsuario-->
+                <label for="username">Login de Usuário:</label> 
+                <input type="text" name="username" required><br><br>
+                <!--Senha-->
+                <label for="pwd">Senha:</label>
+                <input type="password" name="pwd" required><br><br>
+                <!--confirmação de Senha-->
+                <label for="pwd">Confirmação de Senha</label>
+                <input type="password" name="pwd" required><br><br>
+            </fieldset><br>
+
+                <input type="submit" id="SmeioR" value="Enviar">
+            <input type="reset" id="smeioR" value="Limpar"> 
+        </form>
+    </div>
+</body>
+</html>

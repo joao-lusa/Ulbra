@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>calculadora</title>
+
+    <link rel="stylesheet" type="text/css" href=style.css>
+    <script src="calcular.js"></script>
+</head>
+
+<body>
+    <div id="DivTudo">
+     <!--exercicio 1-->
+        <form name="calculadora" action="#">
+            <fieldset>
+                <legend><h2>calculadora</h2></legend>
+                <label for="number">digite o peimeiro número</label><br>
+                <input type="number" id='n1'><br>
+                <label for="number">escolha qual operação (+, -, * ou /)</label><br>
+                <select mame="sinal" id="sinal">
+                    <option value="+">+</option>
+                    <option value="-">-</option>
+                    <option value="*">*</option>
+                    <option value="/">/</option>
+                </select><br>
+                <label for="number">digite o segundo número</label><br>
+                <input type="number" id='n2'><br><br>
+                <input type="button" value=calcular onclick="calcular();" />
+                <div id="res1"></div>
+            </fieldset>   
+        </form>
+
+        <!--exercicio 2-->
+        <form action="#">
+            <Fieldset>
+                <legend><h2>Calcule o seu consumo de Energia</h2></legend>
+                <label for="kwh">Kwh consumidos:</label>
+                <input type="text" id="kwh">
+                <br><br>
+                <label for="valor">Valor unitário do Kwh:</label>
+                <input type="text" id="valor">
+                <br><br>
+            <input type="button" onclick="calcule()" value="Calcular"/>
+            <label for="res"></label>
+            <div id="res2"></div>
+            </Fieldset>
+        </form>
+
+     <!--exercicio 3-->
+        <form action="#">
+            <fieldset>
+                <legend><h2>verificar qual o maior número</h2></legend>
+                <br>
+                <label for="numero">Digite os números: </label>
+                <input type="text" id="numero">
+                <br><br>
+                <input type="button" onclick="verificar()" value="verificar"/>
+                <br>
+                <div id="ver"></div>
+            </fieldset>
+        </form>
+
+     <!--exercicio 4-->
+        <form action="#">
+            <fieldset>
+                <legend><h2>verificar se é de maior</h2></legend>
+                <br>
+                <label for="idade">escreva as idades: </label>
+                <input type="text" id="idade">
+                <br><br>
+                <input type="button" onclick="polar()" value="buscar"/>
+                <br>
+                <div id="verifica1"></div>
+                <div id="verifica2"></div>
+            </fieldset>
+        </form>
+    </div>
+</body>
