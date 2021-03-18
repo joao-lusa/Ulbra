@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/01/01.iml" filepath="$PROJECT_DIR$/01/01.iml" />
+      <module fileurl="file://$PROJECT_DIR$/02/02.iml" filepath="$PROJECT_DIR$/02/02.iml" />
+      <module fileurl="file://$PROJECT_DIR$/03/03.iml" filepath="$PROJECT_DIR$/03/03.iml" />
+      <module fileurl="file://$PROJECT_DIR$/04/04.iml" filepath="$PROJECT_DIR$/04/04.iml" />
+      <module fileurl="file://$PROJECT_DIR$/05/05.iml" filepath="$PROJECT_DIR$/05/05.iml" />
+      <module fileurl="file://$PROJECT_DIR$/06/06.iml" filepath="$PROJECT_DIR$/06/06.iml" />
+      <module fileurl="file://$PROJECT_DIR$/07/07.iml" filepath="$PROJECT_DIR$/07/07.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ED_Atividade01.iml" filepath="$PROJECT_DIR$/ED_Atividade01.iml" />
+    </modules>
+  </component>
+</project>
