@@ -1,0 +1,162 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="d19289ec-5853-4c95-913f-e3c60459b5f8" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/../../../2020_2/LP/AP2_LP/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Operacao.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Pilha.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../filas/filas.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../filas/src/Fila.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../filas/src/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pilha.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/profPilha/profPilha.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/profPilha/src/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/profPilha/src/Pilha.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Pilha.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../src/Operacao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../OO/AP1/ap1.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../OO/Android/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../OO/Android/app/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../OO/Android/app/build.gradle" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../OO/Android/app/proguard-rules.pro" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../OO/Android/app/src/androidTest/java/com/example/myapplication/ExampleInstrumentedTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../OO/Android/app/src/main/AndroidManifest.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../OO/Android/app/src/main/java/com/example/myapplication/MainActivity.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../OO/Android/app/src/main/res/drawable-v24/ic_launcher_foreground.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../OO/Android/app/src/main/res/drawable/ic_launcher_background.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../OO/Android/app/src/main/res/layout/activity_main.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../OO/Android/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../OO/Android/app/src/main/res/mipmap-anydpi-v26/ic_launcher_round.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../OO/Android/app/src/main/res/mipmap-hdpi/ic_launcher.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../OO/Android/app/src/main/res/mipmap-hdpi/ic_launcher_round.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../OO/Android/app/src/main/res/mipmap-mdpi/ic_launcher.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../OO/Android/app/src/main/res/mipmap-mdpi/ic_launcher_round.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../OO/Android/app/src/main/res/mipmap-xhdpi/ic_launcher.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../OO/Android/app/src/main/res/mipmap-xhdpi/ic_launcher_round.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../OO/Android/app/src/main/res/mipmap-xxhdpi/ic_launcher.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../OO/Android/app/src/main/res/mipmap-xxhdpi/ic_launcher_round.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../OO/Android/app/src/main/res/mipmap-xxxhdpi/ic_launcher.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../OO/Android/app/src/main/res/mipmap-xxxhdpi/ic_launcher_round.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../OO/Android/app/src/main/res/values-night/themes.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../OO/Android/app/src/main/res/values/colors.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../OO/Android/app/src/main/res/values/strings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../OO/Android/app/src/main/res/values/themes.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../OO/Android/app/src/test/java/com/example/myapplication/ExampleUnitTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../OO/Android/build.gradle" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../OO/Android/gradle.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../OO/Android/gradle/wrapper/gradle-wrapper.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../OO/Android/gradle/wrapper/gradle-wrapper.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../OO/Android/gradlew" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../OO/Android/gradlew.bat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../OO/Android/settings.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../2020_2/PW/ap2_pw/bd/Connect.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../2020_2/PW/ap2_pw/controllers/Users.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../2020_2/PW/ap2_pw/controllers/contacts.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../2020_2/PW/ap2_pw/index.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../2020_2/PW/ap2_pw/models/UsersModel.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../2020_2/PW/ap2_pw/models/contactsModels.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../BD/Atividade_Aula02.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../BD/Work.sql" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../BD/revisao SQL/revisao.sql" beforeDir="false" afterPath="$PROJECT_DIR$/../../BD/revisao SQL/revisao.sql" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../OO/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../OO/.idea/.name" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../OO/.idea/codeStyles/Project.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../OO/.idea/codeStyles/codeStyleConfig.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../OO/.idea/kotlinc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../OO/.idea/libraries/KotlinJavaRuntime.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../OO/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../OO/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../OO/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../OO/ED_Atividade01/07/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../OO/ED_Atividade01/07/src/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../OO/OO.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../OO/OO2.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../README.md" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../../.." />
+  </component>
+  <component name="ProjectId" id="1rEBeQ83NO6CPkO1LPq2SUzJhYE" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.path.for.package.tslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
+  </component>
+  <component name="RunManager" selected="Application.Main (1)">
+    <configuration name="Main (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Main" />
+      <module name="profPilha" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Main" />
+      <module name="pilha" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.Main (1)" />
+        <item itemvalue="Application.Main" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="d19289ec-5853-4c95-913f-e3c60459b5f8" name="Default Changelist" comment="" />
+      <created>1618531471880</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1618531471880</updated>
+      <workItem from="1618531479524" duration="698000" />
+      <workItem from="1619121685760" duration="10829000" />
+      <workItem from="1619644766554" duration="1256000" />
+      <workItem from="1620341022500" duration="1581000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+</project>
