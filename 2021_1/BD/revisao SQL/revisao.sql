@@ -11,7 +11,6 @@ CREATE TABLE cidade(
 );
 
 CREATE TABLE filial(
-
     id INT AUTO_INCREMENT PRIMARY KEY,
     nome VARCHAR (50) not null,
     endereco VARCHAR (70) not null,

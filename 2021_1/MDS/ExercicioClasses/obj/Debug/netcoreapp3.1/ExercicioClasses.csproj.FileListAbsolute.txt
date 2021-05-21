@@ -1,0 +1,13 @@
+C:\Users\joaol\Documents\Ulbra\2021_1\MDS\ExercicioClasses\bin\Debug\netcoreapp3.1\ExercicioClasses.exe
+C:\Users\joaol\Documents\Ulbra\2021_1\MDS\ExercicioClasses\bin\Debug\netcoreapp3.1\ExercicioClasses.deps.json
+C:\Users\joaol\Documents\Ulbra\2021_1\MDS\ExercicioClasses\bin\Debug\netcoreapp3.1\ExercicioClasses.runtimeconfig.json
+C:\Users\joaol\Documents\Ulbra\2021_1\MDS\ExercicioClasses\bin\Debug\netcoreapp3.1\ExercicioClasses.runtimeconfig.dev.json
+C:\Users\joaol\Documents\Ulbra\2021_1\MDS\ExercicioClasses\bin\Debug\netcoreapp3.1\ExercicioClasses.dll
+C:\Users\joaol\Documents\Ulbra\2021_1\MDS\ExercicioClasses\bin\Debug\netcoreapp3.1\ExercicioClasses.pdb
+C:\Users\joaol\Documents\Ulbra\2021_1\MDS\ExercicioClasses\obj\Debug\netcoreapp3.1\ExercicioClasses.csprojAssemblyReference.cache
+C:\Users\joaol\Documents\Ulbra\2021_1\MDS\ExercicioClasses\obj\Debug\netcoreapp3.1\ExercicioClasses.AssemblyInfoInputs.cache
+C:\Users\joaol\Documents\Ulbra\2021_1\MDS\ExercicioClasses\obj\Debug\netcoreapp3.1\ExercicioClasses.AssemblyInfo.cs
+C:\Users\joaol\Documents\Ulbra\2021_1\MDS\ExercicioClasses\obj\Debug\netcoreapp3.1\ExercicioClasses.csproj.CoreCompileInputs.cache
+C:\Users\joaol\Documents\Ulbra\2021_1\MDS\ExercicioClasses\obj\Debug\netcoreapp3.1\ExercicioClasses.dll
+C:\Users\joaol\Documents\Ulbra\2021_1\MDS\ExercicioClasses\obj\Debug\netcoreapp3.1\ExercicioClasses.pdb
+C:\Users\joaol\Documents\Ulbra\2021_1\MDS\ExercicioClasses\obj\Debug\netcoreapp3.1\ExercicioClasses.genruntimeconfig.cache
