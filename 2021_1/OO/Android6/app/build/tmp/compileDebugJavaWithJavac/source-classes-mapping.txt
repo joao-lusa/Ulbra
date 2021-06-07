@@ -1,4 +1,0 @@
-com/example/tde06/BuildConfig.java
- com.example.tde06.BuildConfig
-com/example/tde06/MainActivity.java
- com.example.tde06.MainActivity
