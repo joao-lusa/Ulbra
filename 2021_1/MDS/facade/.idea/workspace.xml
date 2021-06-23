@@ -2,23 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="597ee529-da02-49d3-bdde-cc110771a678" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/../../ED/facade/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../ED/facade/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/facade.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/facade/ClienteDoBanco.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/facade/ContaBancaria.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/facade/Fachada.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/facade/Main.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ClienteDoBanco.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ContaBancaria.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Fachada.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
