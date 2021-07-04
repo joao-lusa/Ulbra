@@ -1,0 +1,18 @@
+com/example/myhtpp/BuildConfig.java
+ com.example.myhtpp.BuildConfig
+com/example/myhttp/StocksHttp.java
+ com.example.myhttp.StocksHttp
+com/example/myhttp/CurrenciesAdapter.java
+ com.example.myhttp.CurrenciesAdapter
+com/example/myhttp/Currencies.java
+ com.example.myhttp.Currencies
+com/example/myhttp/CurrenciesHttp.java
+ com.example.myhttp.CurrenciesHttp
+com/example/myhttp/Stocks.java
+ com.example.myhttp.Stocks
+com/example/myhttp/StocksAdapter.java
+ com.example.myhttp.StocksAdapter
+com/example/myhttp/MainActivity.java
+ com.example.myhttp.MainActivity
+ com.example.myhttp.MainActivity$CurrenciesTask
+ com.example.myhttp.MainActivity$StocksTask
