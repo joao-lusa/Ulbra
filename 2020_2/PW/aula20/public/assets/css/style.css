@@ -1,0 +1,15 @@
+body{
+    margin: 0 auto;
+}
+header{
+    text-align: center;
+}
+
+nav{
+   
+    background-color: slategray;
+}
+footer{
+    text-align: center;
+    background-color: lightskyblue;
+}

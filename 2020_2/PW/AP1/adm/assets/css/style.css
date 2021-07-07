@@ -1,0 +1,19 @@
+body{
+    margin: 0 auto;
+}
+header{
+    text-align: center;
+}
+section{
+   padding-left: 1rem;
+}
+.jumbotron{
+    background-color: #99ddff!important;
+}
+.nav-color{
+    background-color: #e6f7ff
+}
+footer{
+    text-align: center;
+    background-color: #00004d;
+}
