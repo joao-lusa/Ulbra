@@ -1,0 +1,161 @@
+:root{
+    --laranja:  #ff9966;
+    --cinza: #32373b;
+    --cinza-claro: #b2b4c3;
+    --branco-azul:#e6f7ff;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family:'Times New Roman', Times, serif;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 100vh;
+} 
+
+header {
+    padding: 10px 0px ;
+    font-size: 35px;
+    width: 80%;
+}
+
+nav {
+    padding: 15px 5px;
+    text-align: center;
+    width: 80%;
+
+} 
+
+nav a{
+    color: var(--cinza);
+    padding: 5px 10px;
+}
+
+section{
+    width: 80%;
+    height: 34%;
+    background-color: var(--cinza-claro);
+}
+
+section img{
+    width: 90%;
+    height: 100%;
+    padding-left: 7rem;
+}
+
+article{
+    width: 60%;
+}
+
+article p{
+    width: 50%;
+    float: left;
+}
+
+footer{
+    background-color: var(--cinza);
+    color: var(--branco-azul);
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    margin-top: 20px;
+}
+
+footer h2{
+    margin-top: 10px;
+}
+
+.img-direita{
+    padding-left: 25px;
+    width: 40%;
+    height: 80%;
+}
+
+.img-esquerda{
+    float: left;
+    width: 45;
+    height: 80%;
+    margin-right: 10px;
+    
+}
+
+.separa-article{
+    float: left;
+    margin-top: 100px;
+}
+.linha-manchete{
+    background-color: var(--cinza-claro);
+    height: 70%;
+    width: 1px;
+    float: left;
+    margin-left: 10px;
+}
+
+.linha{
+    background-color: var(--cinza-claro);
+    height: 1px;
+    width: 100%;
+    margin-top: 5px;
+}
+
+.linha-header{
+    background-color: var(--laranja);
+    height: 1px;
+    width: 100%;
+    margin-top: 10px;
+    float: right;
+}
+
+.link-sem-linha{
+    text-decoration: none;
+}
+
+#btn-right{
+    float:right;
+}
+
+#btn-entrar{
+    font-size: 20px;
+    padding: 0px 5px;
+    color: var(--cinza);
+}
+
+#btn-assine{
+    font-size: 20px;
+    padding: 10px 5px;
+    background-color: var(--laranja);
+    color: var(--branco-azul);
+}
+@media (max-width: 600px) {
+    nav, header img, article img{
+      width: 100%;
+      height: auto;
+    } 
+}
+@media (max-width: 1070px) {
+    section img{
+        padding: 0;
+        width: 100%;
+    }
+    article img{
+        float: none;
+        padding-top: 5px;
+        width: 60%;
+        height: auto;
+    }
+    .linha-manchete{
+        height: 1px;
+        width: 100%;
+        margin-top: 5px;
+    }
+    article p{
+        width: 100%;
+    }
+}
+ 
