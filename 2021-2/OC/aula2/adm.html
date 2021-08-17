@@ -1,64 +1,80 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-br">
 <head>
     <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>beck-end</title>
-    <link rel="stylesheet" href="assets/css/styleAdm.css">
+    <title>preço</title>
+    <script src="script.js"></script>
+    <link rel="stylesheet" href="style.css">
+    <!-- Bootstrap-->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
+    <!--/Bootstrap-->
 </head>
 <body>
-    <header>
-        <h2>BackEnd</h2>
-        <img src="assets/img/eu.jpg">
-    </header>
-      
-      <section>
-        <nav>
-            <ul>
-                <img src="assets/img/icons-busula.png"><p>MAIN MENU</p>
-                <li>Dashboard</a></li><a href="#"><img src="assets/img/icons-mais.png"></a>
-                <p>LAYOUT PAGES</p><img src="assets/img/icons-pages.png">
-                <p>General Pages</p><a href="#"><img src="assets/img/icons-mais.png"></a>
-                <li>Cookie consent</li><a href="#"><img src="assets/img/icons-mais.png"></a>
-                <li>eCommerce</li><a href="#"><img src="assets/img/icons-mais.png"></a>
-                <li>Apps</li><a href="#"><img src="assets/img/icons-mais.png"></a>
-                <li>Maps</li><a href="#"><img src="assets/img/icons-mais.png"></a>
-                <li>Users</li><a href="#"><img src="assets/img/icons-mais.png"></a>
-                <p>COMPONENTS</p><img src="assets/img/icons-comp.png">
-                <li>Basic UI</li><a href="#"><img src="assets/img/icons-mais.png"></a>
-                <li>Advanced UI</li><a href="#"><img src="assets/img/icons-mais.png"></a>
-                <li>Elements</li><a href="#"><img src="assets/img/icons-mais.png"></a>
-                <li>Forms</li><a href="#"><img src="assets/img/icons-mais.png"></a>
-                <li>Table</li><a href="#"><img src="assets/img/icons-mais.png"></a>
+    <nav class="navbar navbar-expand-sm bg-info navbar-dark fixed-top">
+        <a class="navbar-brand" href="#">Adm</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+            <span class="navbar-toggler-icon"></span>
+        </button>   
+        <div class="collapse navbar-collapse" id="collapsibleNavbar">
+            <ul class="navbar-nav">
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Lorem, ipsum.</a>
+                </li>  
             </ul>
-        </nav>
-        
-        <article>
-          <a href="#" class="link-sem-linha"><p>Output</p></a>
-          <a href="#" class="link-sem-linha"><p>Code</p></a>
+        </div>  
+    </nav><br><br>
 
-          <div>
-            <p>Gantt Chart</p>
-            <img src="assets/img/icons-lupa.png"><p>Scale</p><input type="week">
-            <img src="assets/img/icons-relogio.png"><p>Today</p><input type="time">
-            <img src="assets/img/icons-filtro.png"><p>Filtet Tasks</p><input type="text">
-            <img src="assets/img/icons-tesoura.png"><p>Out of range</p><input type="text">
-            <img src="assets/img/icons-depen.png"><p>Dependencies</p> <a href="#" class="link-sem-linha"><p>Enable</p></a> <a href="#" class="link-sem-linha"><p>Conflicts</p></a>
-            <img src="assets/img/icons-engrenagem.png"><p>Groups</p><input type="text">
-            <img src="assets/img/icons-editar.png"><p>Edit</p> <a href="#" class="link-sem-linha"><p>Draw</p></a> <a href="#" class="link-sem-linha"><p>Read Only</p></a>
-            <img src="assets/img/icons-codigo.png"><p>Content</p> <a href="#" class="link-sem-linha"><p>Rows</p></a> <a href="#" class="link-sem-linha"><p>Tasks</p></a>
-            <img src="assets/img/icons-direita.png"><p>Tree action</p> <a href="#" class="link-sem-linha"><p>Expand all</p></a> <a href="#" class="link-sem-linha"><p>Collapse all</p></a>
-          </div>
+    <div class="container">
+        <div class="row">
+            <section class="col-md-12">
+                <div id="cabeca">
+                    <div class="shadow-sm p-3 mb-5 bg-white rounded">
+                        <form action="#">
+                            <label for="pacote"><b>Lorem, ipsum.:</b></label>
+                                <select name="n" id="n" class="form-control">
+                                    <option value="p1">Lorem, ipsum.</option>
+                                    <option value="p2">Lorem, ipsum dolor.</option>
+                                    <option value="p3">Lorem.</option>
+                                    <option value="p4">Lorem ipsum dolor sit.</option>
+                                </select>
+                                <label for="desconto"><b>Lorem, ipsum dolor.</b></label><br>
+                                <input type="number" id="desconto"><br>
 
-
-        </article>
-      </section>
-      
-      <footer>
-        <p> <h2>©Copyright 2021 - João Lucas Pereira Rafael</h2></p>
-      </footer>
-      
-    
+                            <input type="button" value="Procurar"/><br>
+                            <h1 id="pico"></h1>
+                            <b id="inf"></b>
+                        </form>
+                        <table class="table">
+                            <thead class="thead-light">
+                                <tr>
+                                    <th scope="col">loremsd</th>
+                                    <th scope="col">Plo</th>
+                                    <th scope="col">\\\\\s\\\\p</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td id="passagem">R$</td>
+                                    <td id="pousada">R$</td>
+                                    <td id="total">R$</td>
+                                </tr>
+                            </tbody>
+                        </table>
+                        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Unde vero cum recusandae. Consequatur beatae corrupti quis dicta. Hic aliquam enim natus labore, deserunt laborum sit autem eius? Eligendi, numquam assumenda.</p>
+                    </div>
+                </div>
+            </section>
+        </div>
+    </div>
+    <div class="rounded">  
+        <footer class="jumbotron text-center">
+          <h2>©Copyright 2021 - João Lucas Pereira Rafael</h2>
+        </footer>
+    </div>       
+    <script src="assets/js/"></script>
 </body>
 </html>
