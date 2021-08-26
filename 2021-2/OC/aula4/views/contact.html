@@ -1,12 +1,27 @@
-<div class="form-group">
-    <label for="usr">Name:</label>
-    <input type="text" class="form-control" id="usr">
-  </div>
-  <div class="form-group">
-    <label for="pwd">sobre:</label>
-    <input type="text" class="form-control" id="pwd">
-    <div class="form-group">
-        <label for="comment">sobre:</label>
-        <textarea class="form-control" rows="5" id="comment"></textarea>
-      </div>
-</div>
+<form action="#">
+
+  <label for="contact_name">Nome</label>
+  <input type="text" name="nome" id="contact_name" class="form-control">
+
+  <br><br>
+
+  <label for="contact_email">E-mail</label>
+  <input type="text" name="email" id="contact_email" class="form-control">
+
+  <br><br>
+
+  <label for="contact_phone">Telefone</label>
+  <input type="number" name="telefone" id="contact_phone" class="form-control">
+
+  <br><br>
+
+  <label for="contact_about">Assunto</label>
+  <textarea name="assunto" id="contact_about" cols="30" rows="10" class="form-control"></textarea>
+  
+  <br><br>
+
+  <a type="submit" class="btn btn-primary" onclick="loadData()">Enviar</a>
+
+  <br><br>
+
+</form>
