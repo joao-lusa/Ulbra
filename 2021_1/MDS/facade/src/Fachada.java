@@ -8,6 +8,7 @@ public class Fachada {
 		this.cliente = new ClienteDoBanco();
 		this.conta = new ContaBancaria();
 	}
+
 	//executa uma serie de ações aonde o usuaria visualiza
 	public void fazerDeposito(int quantidade, ClienteDoBanco cliente, ContaBancaria conta){
 		System.out.printf("Olá, o beneficiário de seu depósito é o(a) cliente %s\n",cliente.obterNomeDoCliente());
