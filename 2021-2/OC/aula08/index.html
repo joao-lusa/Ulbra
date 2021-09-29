@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    
+    <title>Exemplo React</title>
+
+    <script src="https://unpkg.com/react@17/umd/react.development.js" crossorigin></script>
+    <script src="https://unpkg.com/react-dom@17/umd/react-dom.development.js" crossorigin></script>
+    <script src="https://unpkg.com/babel-standalone@6/babel.min.js"></script>
+
+</head>
+<body>
+
+    <div class="root"></div>
+    
+    <script type="text/babel">
+    
+        class Test extends React.Component{
+            
+            render(){
+                return <h1>Primeiro componente React.</h1>
+            };
+
+        }           
+
+        ReactDOM.render(<Test/>, document.querySelector(".root"));
+
+    </script>
+
+</body>
+</html>
